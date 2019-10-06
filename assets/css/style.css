@@ -1,7 +1,26 @@
-body {
-    background-color: white;
-    text-align: left;
-font-family: 'Times New Roman', Times, serif ; 
-font-size: small
+body { 
+    background-image: url("../images/sky\ img.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.container{
+    background-color: beige;
+    height: 350px;
+}
+
+#wins{
+    display: inline-block;
+}
+
+#loses{
+    display: inline-block;
+}
+
+#guess-left{
+    display: inline-block;
+}
+
+#yourGuess{
+    display: inline-block;
 }
